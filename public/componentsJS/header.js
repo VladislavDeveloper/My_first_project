@@ -21,11 +21,12 @@ Vue.component('header-component', {
                                         <div class="menuHeader">
                                             Каталог
                                         </div>
-                                        <a href="#">MacBook</a>
-                                        <a href="#">iMac</a>
-                                        <a href="#">Iphone</a>
-                                        <a href="#">Apple watch</a>
-                                        <a href="#">Аксессуары</a>
+                                        <router-link to="/">Главная</router-link>
+                                        <router-link to="/laptops">MacBook</router-link>
+                                        <router-link to="/computers">iMac</router-link>
+                                        <router-link to="/phones">iPhone</router-link>
+                                        <router-link to="/watches">Apple Watch</router-link>
+                                        <router-link to="/accessoires">Аксессуары</router-link>
                                     </div>
 
                                     <div class="menuSection">
@@ -36,15 +37,6 @@ Vue.component('header-component', {
                                         <a href="#">Оплата и доставка</a>
                                         <a href="#">Гарантия</a>
                                     </div>
-
-                                    <div class="menuSection">
-                                        <div class="menuHeader">
-                                            Наш сервисный центр
-                                        </div>
-                                        <a href="#">Официальная гарантия Apple</a>
-                                    </div>
-
-
                                 </div>
                     </div>
                 
@@ -53,10 +45,8 @@ Vue.component('header-component', {
                             <input class='search_form_input' type="text" placeholder="ПОИСК...">
                             <button class='search_btn' type="submit"><img class="search_icon" src="img/searchIcon.png" alt=""></button>
                         </form>
-                        <span class="cart_icon_Num" v-on:click='$refs.cart.isCartVisible = !$refs.cart.isCartVisible'>
+                        <span class="cart_icon_Num" v-on:click='$root.$refs.cart.isCartVisible = !$root.$refs.cart.isCartVisible'>
                             <img class="cart_icon" src="img/cart.png" alt="">
-                            <span>5</span>
-                            <cart ref='cart'></cart>
                         </span>
                     </div>
                 </div>      
