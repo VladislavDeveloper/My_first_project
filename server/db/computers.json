@@ -1,0 +1,23 @@
+[
+    {
+        "id_product": 221,
+        "product_img": "https://img.mvideo.ru/Pdb/30029208b.jpg",
+        "product_name": "Apple iMac 27 Retina 5K",
+        "product_description": "Год релиза 2020 Процессор Intel Core i7 Цвет серебристый Память 512 ГБ Оперативная память 8 ГБ",
+        "price": 224990
+    },
+    {
+        "id_product": 221,
+        "product_img": "https://img.mvideo.ru/Pdb/30029208b.jpg",
+        "product_name": "Apple iMac 27 Retina 5K",
+        "product_description": "Год релиза 2020 Процессор Intel Core i7 Цвет серебристый Память 512 ГБ Оперативная память 8 ГБ",
+        "price": 224990
+    },
+    {
+        "id_product": 221,
+        "product_img": "https://img.mvideo.ru/Pdb/30029208b.jpg",
+        "product_name": "Apple iMac 27 Retina 5K",
+        "product_description": "Год релиза 2020 Процессор Intel Core i7 Цвет серебристый Память 512 ГБ Оперативная память 8 ГБ",
+        "price": 224990
+    }
+]
